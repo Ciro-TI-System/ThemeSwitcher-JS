@@ -35,7 +35,7 @@ Using modern CSS properties (box model, flex, and HTML radio input) in the appli
 Imagem da aplicação
 
 <img
-src="https://github.com/Ciro-TI-System/ThemeSwitcher-CSS/blob/main/assets/ThemeSwitcher.jpg"
+src="https://github.com/Ciro-TI-System/ThemeSwitcher-JS/blob/main/assets/ThemeSwitcher.jpg"
 alt="Imagem da aplicação"/>
 
 ## :memo: Licença
