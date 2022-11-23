@@ -1,0 +1,82 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+.dark {
+  --bg-color: black;
+  --text-color: white;
+}
+
+.light {
+  --bg-color: white;
+  --text-color: black;
+}
+
+.blue {
+  --bg-color: blue;
+  --text-color: white;
+}
+
+.green {
+  --bg-color: green;
+  --text-color: white;
+}
+
+body{
+  font-family: sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+article{
+  width: 30rem;
+  margin: 2rem auto;
+}
+
+article p{
+  opacity: 0.7;
+}
+
+ul{
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+  background-color: white;
+  box-shadow: 0 0 1rem rgb(0 0 0 / 0.2);
+  position: fixed;
+  bottom: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  left: 50%;
+  transform: translatex(-50%)
+}
+
+input[type="radio"] {
+  --input-color: black;
+  appearance: none;
+  border: 2px solid var(--input-color);
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+}
+
+input[type="radio"]:checked {
+  background-color: var(--input-color);
+}
+
+#dark {
+  --input-color: black;
+}
+
+#light {
+  --input-color: gray;
+}
+
+#blue {
+  --input-color: blue;
+}
+
+#green {
+  --input-color: green;
+}
